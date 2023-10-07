@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+ul, li
+{
+    text-align: justify;
+    list-style-position: inside;
+}
+
+h4 
+{
+    font-size: normal;
+}
+
+.nav-container
+{
+    text-align:center;
+    background-color: rgba(241, 241, 96, 0.49);
+}
+
+.nav-link
+{
+    border: 1px solid transparent;
+    border-radius:10px;
+    padding:5px;
+}
+
+.intro
+{
+    text-align: center;
+    background-color: beige;
+}
+
+.project-list
+{
+    background-color: beige;
+}
+
+.footer-section 
+{
+    padding: 20px;
+    width: 100%;
+    float: left;
+    text-align: left;
+    background-color: beige;
+}
+
+.footer-quicklinks
+{
+    padding: 20px;  
+    width: 100%;
+    float: left;
+    text-align: left;
+    background-color: beige;
+}
+
+.footer-details
+{
+    padding: 20px;
+    width: 100%;
+    float: left;
+    text-align: left;
+    background-color: beige;
+}
+
+.footer-bottom{
+    padding: 20px;
+    width: 100%;
+    background-color: rgba(245, 245, 220, 0.829);
+}
+
+.projectImage
+{
+    padding: 20px;
+    width: 50%;
+}
+
+.contact-page
+{
+    padding: 20px;
+    width: 100%;
+    background-color: beige;
+}
+
+.dropdown-section {
+    max-width: 13em;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    background-color:bisque;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);    
+}
+
+.menuButton {
+    background-color: rgb(247, 203, 122);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menuButton:hover {
+    background-color: rgb(245, 191, 91);
+    color: white;
+}
+
+.projectButton {
+    background-color: rgb(247, 203, 122);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.projectButton:hover {
+    background-color: rgb(245, 191, 91);
+    color: white;
+}
+
+.dropdown-content:link {
+    text-decoration: none;
+}
+
+.about-me-page {
+    padding: 20px;
+    width: 100%;
+    background-color: beige;
+}
+
+
+.show {display: block;}
+
+@media screen and (max-width: 800px) {
+    .intro, .footer-details, .footer-quicklinks, .footer-details, .projectImage, .contact-page, .about-me-page{
+        width: 100%;
+    }
+}
